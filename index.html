@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SavorSpace - Japanese Restaurant</title>
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== Font Awesome ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container" id="nav-cont">
+                <a href="#" class="nav__logo">
+                    <i class="fa-solid fa-book-open-reader"></i>
+                    <span>WhimshicalRealms</span>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link"><i class="fa-solid fa-house"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#features" class="nav__link">
+                                <i class="fa-solid fa-book"></i>
+                                <span>Featured</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#discount" class="nav__link">
+                                <i class="fa-solid fa-tags"></i>
+                                <span>Discount</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">
+                                <i class="fa-solid fa-book-bookmark"></i>
+                                <span>New Books</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#testimonial" class="nav__link">
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Testimonial</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="nav__actions">
+                    <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
+
+                    <i class="fa-solid fa-user" id="login-button"></i>
+
+                    <i class="fa-solid fa-moon" id="theme-button"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== SEARCH ====================-->
+        <div class="search" id="search-content">
+            <form action="" class="search__form">
+                <i class="fa-solid fa-magnifying-glass search__icon"></i>
+                <input type="search" placeholder="Seeking hidden treasures..." class="search__input">
+            </form>
+
+            <i class="fa-solid fa-circle-xmark search__close" id="search-close"></i>
+        </div>
+
+        <!--==================== LOGIN ====================-->
+        <div class="login grid" id="login-content">
+            <form action="" class="login__form grid">
+                <h3 class="login__title">Unlock Secrets</h3>
+
+                <div class="login__group grid">
+                    <div>
+                        <label for="login-email" class="login__label">Email</label>
+                        <input type="email" placeholder="Cast your Email Spell" id="login-email" class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="login-pass" class="login__label">Password</label>
+                        <input type="password" placeholder="Whisper your Password" id="login-pass" class="login__input">
+                    </div>
+                </div>
+
+                <div>
+                    <span class="login__signup">
+                        Haven't mastered the magic yet? <a href="#">Enroll Here</a>
+                    </span>
+
+                    <a href="#" class="login__forgot">
+                        Forgotten Incantation?
+                    </a>
+
+                    <button type="submit" class="login__button button">Cast Spell</button>
+                </div>
+            </form>
+
+            <i class="fa-solid fa-circle-xmark login__close" id="login-close"></i>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Browse & <br>
+                            Select E-Books
+                        </h1>
+
+                        <p class="home__description">
+                            Find the best e-books from your favorite
+                            writers, explore hundreds of books with all
+                            possible categories, take advantage of the
+                            50% discount and much more.
+                        </p>
+
+                        <a href="#" class="button">Explore Now</a>
+                    </div>
+
+                    <div class="home__images">
+                        <div class="home__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <article class="home__article swiper-slide">
+                                    <img src="assets/img/home-book-1.png" alt="image" class="home__img">
+                                </article>
+
+                                <article class="home__article swiper-slide">
+                                    <img src="assets/img/home-book-2.png" alt="image" class="home__img">
+                                </article>
+
+                                <article class="home__article swiper-slide">
+                                    <img src="assets/img/home-book-3.png" alt="image" class="home__img">
+                                </article>
+
+                                <article class="home__article swiper-slide">
+                                    <img src="assets/img/home-book-4.png" alt="image" class="home__img">
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section">
+                <div class="services__container container grid">
+                    <article class="services__card">
+                        <i class="fa-solid fa-dove"></i>
+                        <h3 class="services__title">Magical Delivery</h3>
+                        <p class="services__description">Experience shipping like magic on orders exceeding IDR99k</p>
+                    </article>
+
+                    <article class="services__card">
+                        <i class="fa-solid fa-shield"></i>
+                        <h3 class="services__title">Charm-Protected Transactions</h3>
+                        <p class="services__description">Enjoy 100% secure payment with our bewitched safeguards</p>
+                    </article>
+
+                    <article class="services__card">
+                        <i class="fa-solid fa-wand-magic"></i>
+                        <h3 class="services__title">24/7 Wizardry Assistance</h3>
+                        <p class="services__description">Reach out to our mystical support team anytime you need, as if casting a spell</p>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+
+            </section>
+
+            <!--==================== DISCOUNT ====================-->
+            <section class="discount section" id="discount">
+
+            </section>
+
+            <!--==================== NEW BOOKS ====================-->
+            <section class="new section" id="new">
+
+            </section>
+
+            <!--==================== JOIN ====================-->
+            <section class="join section">
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section" id="testimonial">
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src=""></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+</html>
