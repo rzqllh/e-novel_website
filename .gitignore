@@ -2,8 +2,5 @@
 *.psd
 *.txt
 
-# Ignore folder output
-/folder/
-
 # Ignore log files
 *.log

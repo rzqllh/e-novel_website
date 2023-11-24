@@ -731,6 +731,7 @@ body.dark-theme{
 /*=============== FOOTER ===============*/
 .footer{
   padding-block: 4rem 6rem;
+  background-color: var(--border-color);
 }
 
 .footer__container{
