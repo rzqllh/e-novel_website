@@ -1,0 +1,9 @@
+# Ignore compiled files
+*.psd
+*.txt
+
+# Ignore folder output
+/folder/
+
+# Ignore log files
+*.log

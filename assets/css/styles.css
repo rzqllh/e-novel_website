@@ -433,12 +433,13 @@ body.dark-theme{
 }
 
 .home__article, .home__img{
-  width: 220px;
+  width: 300px;
   transition: scale .4s;
 }
 
 .home__article{
-  scale: .8;
+  scale: .75;
+  
 }
 
 /* Swiper class */
