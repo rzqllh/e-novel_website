@@ -1,4 +1,3 @@
-```markdown
 # WhimshicalRealms
 
 WhimshicalRealms is an online marketplace for e-books with a magical theme. Discover and choose from a wide range of genres, authors, and titles, and enjoy enchanting discounts and offers. Whether you are looking for fantasy, romance, mystery, or horror, you will find something to suit your taste and mood.
